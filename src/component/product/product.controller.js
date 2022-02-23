@@ -1,4 +1,4 @@
-const multer = require("multer"); // multer will be used to handle the form data.
+const multer = require("multer"); 
 const Aws = require("aws-sdk");
 const Product = require("./product.model");
 
@@ -24,5 +24,11 @@ const s3 = new Aws.S3({
 });
 
 exports.createProduct = async (req, res) => {
-  res.send("request works");
-};
+
+  
+  
+
+  
+
+}
+
