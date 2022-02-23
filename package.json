@@ -4,7 +4,8 @@
   "description": "Upload of image to AWS and store the url in MONGODB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/Peterzolo/Image-upload#readme",
   "dependencies": {
     "aws-sdk": "^2.1079.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "i": "^0.3.7",
     "mongoose": "^6.2.3",
