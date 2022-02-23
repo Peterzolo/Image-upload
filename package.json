@@ -1,0 +1,33 @@
+{
+  "name": "image-upload",
+  "version": "1.0.0",
+  "description": "Upload of image to AWS and store the url in MONGODB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peterzolo/Image-upload.git"
+  },
+  "keywords": [
+    "File",
+    "upload",
+    "to",
+    "aws"
+  ],
+  "author": "Peter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peterzolo/Image-upload/issues"
+  },
+  "homepage": "https://github.com/Peterzolo/Image-upload#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1079.0",
+    "express": "^4.17.3",
+    "i": "^0.3.7",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "npm": "^8.5.1"
+  }
+}
